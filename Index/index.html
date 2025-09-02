@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RFX Soccer App Redirect</title>
+  <script>
+    window.onload = function () {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // App store links
+      var iosLink = "https://apps.apple.com/md/app/rfx-soccer/id6739776891";
+      var androidLink = "https://play.google.com/store/apps/details?id=com.rfx.soccer";
+      var fallbackLink = "https://www.gorfx.app"; // fallback for desktop or unknown devices
+
+      if (/android/i.test(userAgent)) {
+        window.location.href = androidLink;
+      } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        window.location.href = iosLink;
+      } else {
+        window.location.href = fallbackLink;
+      }
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting to the right app store...</p>
+</body>
+</html>
