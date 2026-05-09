@@ -71,16 +71,18 @@ Each Secret follows Brunson's pattern: **break a false belief → install a new 
 
 **Slide 7 — The Stack (build line by line, $ value visible next to each)**
 
-| # | Component | Value |
-|---|---|---|
-| 1 | RFX athlete profile + tracked-training engine | $**TODO** |
-| 2 | Club dashboard for DOCs (player development visibility, retention reporting) | $**TODO** |
-| 3 | Parent view (progress, milestones, exposure log) | $**TODO** |
-| 4 | **BONUS #1 — 5 Free College Coach Conversations** | **$1,500** |
-| 5 | Bonus #2 — Recruiting profile review by RFX team | $**TODO** |
-| 6 | Bonus #3 — Onboarding session for the club / family | $**TODO** |
+> Dollar values below are *anchor values* — what the equivalent service costs elsewhere (private recruiting consultants, club mgmt platforms, etc.). Tune to your market, but keep the total at or above ~$6,000 so the "free / low price today" contrast lands.
 
-- **Total value:** $**TODO**
+| # | Component | Anchor value |
+|---|---|---|
+| 1 | RFX athlete profile + tracked-training engine | $1,200 / yr |
+| 2 | Club dashboard for DOCs (player development visibility, retention reporting) | $2,400 / yr |
+| 3 | Parent view (progress, milestones, exposure log) | $300 / yr |
+| 4 | **BONUS #1 — 5 Free College Coach Conversations** | **$1,500** |
+| 5 | Bonus #2 — Recruiting profile review by RFX team | $500 |
+| 6 | Bonus #3 — Onboarding session for the club / family | $300 |
+
+- **Total anchor value:** **$6,200**
 - **Today:** Free app for athletes & parents / $**TODO** for clubs.
 - Visually: the 5 Free College Coach Conversations line gets its own color band — it is the headline bonus and the reason people act today.
 
@@ -99,11 +101,11 @@ Each Secret follows Brunson's pattern: **break a false belief → install a new 
 ## Section 5 — Close: Urgency, Guarantee, CTA (12:00–13:30)
 
 **Slide 9 — Risk Reversal / Guarantee**
-- **TODO** finalize wording. Suggested:
-  *"If after your 5 college coach conversations you don't feel RFX moved the needle for your athlete, we'll personally introduce you to additional contacts until you do — or you walk away owing nothing."*
+- *"Take RFX through all 5 college coach conversations. If, at the end, you don't feel it moved the needle for your athlete, we'll personally introduce you to additional coaches until you do — or you walk away owing nothing. The risk is on us, not you."*
+- (Adjust wording for the club track if needed; the spirit stays the same.)
 
 **Slide 10 — Urgency**
-- Cohort cap on the bonus: only **TODO** clubs / families per month get the 5-coach-conversation bonus. When this month is full, the bonus comes off the offer.
+- Cohort cap: only **25 families and 5 clubs** per month get the 5-coach-conversation bonus. When this month is full, the bonus comes off the offer until the next cohort opens.
 
 **Slide 11 — Dual CTA**
 - **Club Directors / DOCs:** *Book a 20-min demo* → calendar URL **TODO**.
