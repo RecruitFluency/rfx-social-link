@@ -1,0 +1,49 @@
+:root {
+  /* Jet / matte black brand palette */
+  --jet: #0a0a0a;
+  --jet-2: #111111;
+  --jet-3: #161616;
+  --ink: #1c1c1c;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.18);
+  --text: #f4f4f4;
+  --text-dim: rgba(244, 244, 244, 0.55);
+  --text-mute: rgba(244, 244, 244, 0.35);
+  --accent: #f4f4f4;
+
+  --font-display: 'Anton', 'Inter', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--jet);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  isolation: isolate;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
