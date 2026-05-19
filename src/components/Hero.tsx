@@ -43,10 +43,17 @@ export default function Hero() {
         {/* The athlete cutout — pops above the layout */}
         <div className="hero__athlete">
           <img
-            src="/athlete-placeholder.svg"
-            alt="Featured RFX player"
+            src="/kruz-held.png"
+            alt="Kruz Held — featured RFX player"
             className="hero__athlete-img"
           />
+          <div className="hero__athlete-name">
+            <span className="hero__athlete-name-first">KRUZ</span>
+            <span className="hero__athlete-name-last">HELD</span>
+            <span className="hero__athlete-meta">
+              <span className="hero__tick">\\</span> Chicago Fire II · MLS NEXT Pro
+            </span>
+          </div>
         </div>
 
         {/* Corner metadata — left */}

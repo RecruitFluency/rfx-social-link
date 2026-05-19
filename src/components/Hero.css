@@ -195,21 +195,72 @@
 .hero__athlete {
   position: relative;
   z-index: 7;
-  width: clamp(280px, 38vw, 560px);
-  aspect-ratio: 3 / 4;
+  width: clamp(320px, 42vw, 620px);
+  aspect-ratio: 3 / 4.2;
   display: grid;
   place-items: end center;
-  /* Allow image to overflow top so it "pops off the page" */
-  margin-top: -2rem;
+  margin-top: -3rem;
 }
 
 .hero__athlete-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 40px 60px rgba(0, 0, 0, 0.7))
-    drop-shadow(0 8px 14px rgba(0, 0, 0, 0.5));
-  /* When using a transparent PNG athlete cutout this will pop above */
+  object-position: center bottom;
+  filter: drop-shadow(0 60px 80px rgba(0, 0, 0, 0.85))
+    drop-shadow(0 14px 22px rgba(0, 0, 0, 0.6));
+  /* Soft mask blends Kruz's near-black backdrop into the page edge-to-edge */
+  -webkit-mask-image: radial-gradient(
+    ellipse 75% 90% at 50% 45%,
+    #000 60%,
+    rgba(0, 0, 0, 0.85) 78%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 75% 90% at 50% 45%,
+    #000 60%,
+    rgba(0, 0, 0, 0.85) 78%,
+    transparent 100%
+  );
+}
+
+/* Player name + meta lockup sits just below the athlete */
+.hero__athlete-name {
+  position: absolute;
+  bottom: -1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  z-index: 9;
+  text-align: center;
+  pointer-events: none;
+}
+.hero__athlete-name-first,
+.hero__athlete-name-last {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 1.6vw, 1.6rem);
+  letter-spacing: 0.3em;
+  line-height: 1;
+}
+.hero__athlete-name-first {
+  color: var(--text-dim);
+}
+.hero__athlete-name-last {
+  color: var(--text);
+}
+.hero__athlete-meta {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  color: var(--text-mute);
+  text-transform: uppercase;
+  margin-top: 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 /* ---------- Corner metadata ---------- */
